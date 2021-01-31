@@ -3,7 +3,7 @@ function renderInventory(inventory) {
     for (var i = 0; i < inventory.length; i++)
     {
         var brandName = inventory[i].name;
-        var brandShoes = inventory [i].shoes;
+        var brandShoes = inventory[i].shoes;
         for (var j = 0; j < brandShoes.length; j++){
             var itemsDesc = brandShoes[j].name + ', ' + brandShoes[j].price;
             flatList += brandName + ', ' + itemsDesc + '\n';
